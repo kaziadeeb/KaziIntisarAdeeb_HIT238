@@ -1,0 +1,24 @@
+body {
+  font-family: Times;
+  font-size: 22pt;
+  margin:0;
+  position: relative;
+ background-image: url(../img/background.jpg);
+}
+
+img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+ul {
+list-style-position:inside;
+  margin-left: 2px;
+   display: table;
+}
+
+ul li {
+  margin-left: 13px;
+  text-indent: -12px;
+}
