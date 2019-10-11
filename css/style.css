@@ -215,3 +215,7 @@ body, html {
   height:400px;
   margin-bottom: 20px;
 }
+#searchBox{
+  padding:13px 40px;
+  font-size: 16px;
+}
