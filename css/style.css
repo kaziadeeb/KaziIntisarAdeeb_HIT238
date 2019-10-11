@@ -15,7 +15,7 @@ body, html {
 
 .navg li {
     float: right;
-    
+
   }
 
 .navg li a {
@@ -27,13 +27,13 @@ body, html {
   }
 
 .navg li a.active {
-    background-color: rgb(143, 148, 143);
-    color: white;
+      background-color: #5BB12F;
+      color: white;
   }
-  
+
 .navg li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+      background-color: lightgreen;
+      color: white;
   }
 
 .imgslider {
@@ -46,13 +46,13 @@ body, html {
   background-repeat: no-repeat;
   filter: blur(6px);
   -webkit-filter: blur(6px);
-  
+
   }
 
 
 .bg-text {
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0, 0.4); 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
@@ -124,7 +124,7 @@ body, html {
 
 .footg li {
   display:inline;
-  
+
 }
 
 .footg li a {
@@ -153,7 +153,7 @@ body, html {
     padding-left: 15%;
 }
 
-  
+
   /* Display the columns below each other instead of side by side on small screens */
   @media screen and (max-width: 650px) {
     .column {
@@ -161,28 +161,28 @@ body, html {
       display: block;
     }
   }
-  
+
   /* Add some shadows to create a card effect */
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
-  
+
   /* Some left and right padding inside the container */
   .container {
     padding: 0 16px;
   }
-  
+
   /* Clear floats */
   .container::after, .row::after {
     content: "";
     clear: both;
     display: table;
   }
-  
+
   .title {
     color: grey;
   }
-  
+
   .button {
     border: none;
     outline: 0;
@@ -194,7 +194,7 @@ body, html {
     cursor: pointer;
     width: 100%;
   }
-  
+
   .button:hover {
     background-color: #555;
   }
